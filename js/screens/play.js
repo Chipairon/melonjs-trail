@@ -4,7 +4,7 @@ game.PlayScreen = me.ScreenObject.extend({
 
         me.sys.gravity = 0;
 
-        me.game.world.addChild(new game.PlayerEntity(0, 0), 1);
+        me.game.world.addChild(new game.PlayerEntity(0, 0), 2);
 
         // reset the score
         game.data.score = 0;
